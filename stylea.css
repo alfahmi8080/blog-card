@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Figtree-Extrabold ;
+    src: url(Font/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Figtree-Semibold ;
+    src: url(Font/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Figtree-Italic;
+    src: url(Font/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree-VariableFont;
+    src: url(Font/Figtree-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    max-width: 1440px;
+    min-width: 375px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.outer{
+    width: 350px;
+    padding: 5%;
+    border: 2px hsl(0, 0%, 7%);
+    border-style: solid;
+    border-radius: 5%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.imgup{
+    width: 350px;
+    border-radius: 5%;
+}
+
+.Box1{
+    font-family: Figtree-ExtraBold;
+    font-weight: 800;
+    width: fit-content;
+    border-left: 10px solid hsl(47, 88%, 63%);
+    border-right: 10px solid hsl(47, 88%, 63%);
+    border-top: 5px solid hsl(47, 88%, 63%);
+    border-bottom: 5px solid hsl(47, 88%, 63%);
+    background-color:hsl(47, 88%, 63%);
+    border-radius: 5%;
+}
+
+.Date{
+    font-weight: 500;
+    font-family: Figtree-VariableFont;
+    font-size: 16px;
+}
+
+.UCardT{
+    font-family: Figtree-ExtraBold;
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.UCardContent{
+    font-family: Figtree-VariableFont;
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+}
+
+.Author{
+    font-family: Figtree-ExtraBold;
+}
+
+img.Author{
+    width: 2em;
+    height: 2em;
+}
